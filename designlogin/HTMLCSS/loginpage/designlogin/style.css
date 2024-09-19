@@ -1,0 +1,97 @@
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box;
+ background-color:#fd4e4e;   
+}
+.wrapper{
+background-color: azure;
+display: flex;
+height: 400px;
+width: 700px;
+border: 1px solid black ;
+margin: auto;
+margin-top: 50px;
+box-shadow: 15px 15px 20px black ;
+
+}
+
+.form{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.form h2{
+font-size: 2rem;
+background-color:whitesmoke;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 40px;
+
+}
+.box{
+padding: 12px;
+width: 65%;
+margin: 15px;
+border: 1px solid black;
+outline: none;
+border-radius: 20px;
+background-color: whitesmoke;
+
+
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+   
+    outline: none;
+    border-radius: 20px;
+  
+
+
+}
+#submit:hover{
+cursor: pointer;
+background-color: brown;
+background-color: whitesmoke;
+
+} 
+.form a{
+    background-color:white;
+text-decoration: none
+color: black;
+margin-top: 20px;
+
+
+
+}
+.side{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #750000;
+   
+   
+}
+
+
+.formm h1{
+    font-size: 2rem;
+    color: aliceblue;
+     background-color: #750000;
+     text-align: top;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+   
+}
+ 
